@@ -1,0 +1,9 @@
+git init ->intialised repo
+git add <filename>->added file
+U->untracked
+A->added
+git commit
+git config --global user.name "Saptarshi"
+git log
+git status
+git diff -> shows changes in repo
