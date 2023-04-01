@@ -10,5 +10,13 @@ git diff -> shows changes in repo
 git log --all --decorate --graph --oneline
 git branch ->new branch
 git switch ->change branch
-changes
-origin is set only for a branch->we need to set separately
+git -am "message"->add and commit(otherwise we need to add and commit separately everytime)
+git branch
+git remote add origin https://github.com/Mastermind-sap/Opensource.git
+git remote -v
+git push origin <branch name>
+git config --global http.proxy
+git config --global http.proxy http://172.16.199.20:8080
+git congig --global unset http.proxy
+git config --global https.proxy http://172.16.199.20:8080
+
