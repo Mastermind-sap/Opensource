@@ -10,3 +10,4 @@ git diff -> shows changes in repo
 git log --all --decorate --graph --oneline
 git branch ->new branch
 git switch ->change branch
+changes
