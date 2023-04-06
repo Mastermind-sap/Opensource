@@ -17,6 +17,6 @@ git remote -v
 git push origin <branch name>
 git config --global http.proxy
 git config --global http.proxy http://172.16.199.20:8080
-git congig --global unset http.proxy
-git config --global https.proxy http://172.16.199.20:8080
+git config --global unset http.proxy
+git config --global https.proxy http://172.16.199.40:8080
 
