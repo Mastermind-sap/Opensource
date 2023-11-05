@@ -28,3 +28,5 @@ git checkout --<filename> ->restore deleted file in local storage from git(i.e. 
 git rm <filename> ->untrack a file(i.e. remove it from git)
 git reset HEAD <filename> ->reset file to the version in HEAD but in git to get the file again in the working directory use git checkout
 get reset HEAD~<number of commits to undo>
+difference between revert and reset is that reset is used when it is not pushed to remote repo on github and revert is used when it has been pushed
+git revert --no-edit HEAD
