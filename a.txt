@@ -22,3 +22,9 @@ git config --global https.proxy http://172.16.199.40:8080
 git branch --delete <branchname>
  git clean -f -x ->To remove all untracked files, whether they are ignored or not
 // git config global file found in 	C:\Users\username\.gitconfig
+git reset --hard ->reset all changes that were not committed
+git commit --amend --no-edit -> to edit a small change like typo in the last commit without changing the commit msg or commit
+git checkout --<filename> ->restore deleted file in local storage from git(i.e. when you run rm file)
+git rm <filename> ->untrack a file(i.e. remove it from git)
+git reset HEAD <filename> ->reset file to the version in HEAD but in git to get the file again in the working directory use git checkout
+get reset HEAD~<number of commits to undo>
