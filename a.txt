@@ -4,6 +4,8 @@ U->untracked
 A->added
 git commit
 git config --global user.name "Saptarshi"
+git config credential.helper store
+git config --unset credential.helper
 git log
 git status
 git diff -> shows changes in repo
