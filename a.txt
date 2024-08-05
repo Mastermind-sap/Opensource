@@ -38,7 +38,10 @@ git checkout --orphan <NEWBRANCH name> -> https://gist.github.com/ozh/4734410 - 
 
 // GIT is not authorizing so we can impersonate anyone but to push on GitHub we need write access
 To impersonate anyone we just need to sign the commit author with his email
-git config --global user.email 122561140+Arunav47@users.noreply.github.com //this is checked most and the commiter is shown according to the email
-git config --global user.name "Arunav47"
+git config --global user.email <email> //this is checked most and the commiter is shown according to the email
+git config --global user.name "name"
+
+Therefore important to verify and sign with keys
+https://www.youtube.com/watch?v=uhy_ojFqLg0
 
 ====================================================================================
