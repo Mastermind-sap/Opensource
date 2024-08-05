@@ -46,4 +46,11 @@ https://www.youtube.com/watch?v=uhy_ojFqLg0
 
 
 git cat-file -p <commit -hash>  // to see the sign,authors commiters etc
+
+
+https://www.theodinproject.com/lessons/foundations-setting-up-git
+git config --global gpg.format ssh
+git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
+git config --global commit.gpgsign true
+git log --show-signature
 ====================================================================================
