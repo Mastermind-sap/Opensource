@@ -44,4 +44,6 @@ git config --global user.name "name"
 Therefore important to verify and sign with keys
 https://www.youtube.com/watch?v=uhy_ojFqLg0
 
+
+git cat-file -p <commit -hash>  // to see the sign,authors commiters etc
 ====================================================================================
