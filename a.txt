@@ -33,3 +33,12 @@ get reset HEAD~<number of commits to undo>
 difference between revert and reset is that reset is used when it is not pushed to remote repo on github and revert is used when it has been pushed
 git revert --no-edit HEAD
 git checkout --orphan <NEWBRANCH name> -> https://gist.github.com/ozh/4734410 - create a branch from clean slate without using any source
+
+=================================================================================================================
+
+// GIT is not authorizing so we can impersonate anyone but to push on GitHub we need write access
+To impersonate anyone we just need to sign the commit author with his email
+git config --global user.email 122561140+Arunav47@users.noreply.github.com //this is checked most and the commiter is shown according to the email
+git config --global user.name "Arunav47"
+
+====================================================================================
