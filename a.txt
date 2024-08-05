@@ -49,6 +49,7 @@ git cat-file -p <commit -hash>  // to see the sign,authors commiters etc
 
 
 https://www.theodinproject.com/lessons/foundations-setting-up-git
+ssh-keygen -t ed25519
 git config --global gpg.format ssh
 git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
 git config --global commit.gpgsign true
