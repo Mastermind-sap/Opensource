@@ -56,4 +56,6 @@ git config --global commit.gpgsign true
 git log --show-signature
 
 https://medium.com/@nikhi.unni/fixing-no-signature-issue-in-git-signed-commits-e86d7ece9fb2#:~:text=When%20verifying%20Git%20signed%20commits,appropriate%20SSH%20key%20for%20verification.
+
+still have no idea why ssh ed25519 is not signing
 ====================================================================================
