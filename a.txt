@@ -64,6 +64,9 @@ still have no idea why ssh ed25519 is not signing
 
 git fetch origin pull/ID/head:BRANCH_NAME // to review pr in local https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally?tool=cli
 
+Squash commits: https://www.freecodecamp.org/news/git-squash-commits/
+
+
 git diff --name-only commit1 commit2  // list diff only file names
 git clean -f -d //deletes all untracked files and directories -x for ignored files
 https://stackoverflow.com/a/64966/15106982
